@@ -1,0 +1,6 @@
+node_modules
+atlassian-ide-plugin.xml
+*/atlassian-ide-plugin.xml
+*/.idea/
+*/.DS_Store
+.DS_Store
