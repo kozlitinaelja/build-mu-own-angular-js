@@ -20,7 +20,8 @@ gulp.task('lint', function() {
 gulp.task('test', function () {
   karma.start({
     browsers: ['PhantomJS'],
-    files: ['src/**/*.js',
+    files: ['node_modules/lodash/dist/lodash.js',
+      'src/**/*.js',
       'tests/**/*.spec.js'],
     frameworks: ['jasmine'],
     singleRun: true
